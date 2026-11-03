@@ -10,7 +10,7 @@ c1 = Customer.new("Alice", "123 Main St.", "1999")
 #puts c1.zip
 # Iterating
 #c1.each { |val| puts val }
-
+puts "This is test b"
 puts c1.to_h
 
 
