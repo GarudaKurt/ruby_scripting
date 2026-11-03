@@ -27,7 +27,7 @@ puts "Exit code: #{status.exitstatus}"
 puts "Success? #{status.success?}"
 
 stdout, stderr, status = Open3.capture3("ls /noexistent_folder")
-
+puts "This is test file"
 if status.success?
   puts "Files:\n#{stdout}"
 else
