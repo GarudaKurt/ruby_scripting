@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+
+begin
+    puts "PRESS CTR-C WHEN YOU GET BORED"
+    loop {
+        puts "Hello World"
+    }
+rescue Interrupt => e
+    puts "Note: you will typically use signal trap instead"
+end
