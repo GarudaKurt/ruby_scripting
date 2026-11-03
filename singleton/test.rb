@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 str="hello"
+puts "Hello Test World"
 
 def str.shout
   self.upcase + "!"
