@@ -16,6 +16,7 @@ int main() {
        buffer[char_count++] = ch;
        ch = getchar();
     }
+    printf("Testing"
     buffer[char_count] = 0x00;
     printf("\nHello ");
     printf("%s\n\n",buffer);
