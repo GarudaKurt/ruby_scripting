@@ -7,6 +7,6 @@ is_learning = true
 nothig = nil
 
 
-
+puts "Hello world"
 puts "first name is " + name + " last name  " +last + " and age "+ age.to_s
 puts "first name is #{name} last name #{last} and age #{age.to_s}"
