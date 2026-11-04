@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+puts "This test for merge conflict"
 class User
     attr_accessor :name, :age, :skills
     
